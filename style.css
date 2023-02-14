@@ -93,7 +93,13 @@ main {
 
 .rightsite img {
     max-width: 500px;
-    height: auto;
+    height: 300px;
+}
+
+.rightsite img:hover{
+    transition: all 1s ease-in ;
+    transform: rotate(360deg);
+
 }
 
 .leftside {
